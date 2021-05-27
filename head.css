@@ -1,0 +1,37 @@
+body {
+    background-image: url(imgf/back.jpg);  
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-text-stroke:0.5px rgb(18, 0, 77);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    padding: 0px 100px 0px 100px;
+    background-color: rgba(40, 0, 173, 0.472);
+}
+
+header {    
+    color: #f7f7f7;
+    text-align: center;
+    height: 150px;
+    font-weight: 800;
+}
+
+h1 {
+    color: #f7f7f7;
+}
+
+nav > a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #f7f7f7;
+}
